@@ -1,9 +1,7 @@
 # IS2101-IntruptedSim-NNM24IS199
-
-
 # Interrupt Controller Simulation (Java)
 
-##  Overview
+## 🧠 Overview
 This project simulates a simple **Interrupt Controller** in Java.  
 It demonstrates how hardware interrupts (like from a keyboard, mouse, or printer) are handled using multithreading, priorities, and interrupt masking.
 
@@ -12,7 +10,7 @@ The controller manages these interrupts based on **priority** and **mask status*
 
 ---
 
-##  Features
+## ⚙️ Features
 - Simulates multiple hardware devices:
   - Keyboard
   - Mouse
@@ -27,7 +25,7 @@ The controller manages these interrupts based on **priority** and **mask status*
 
 ---
 
-##  Classes Overview
+## 🧩 Classes Overview
 
 | Class | Description |
 |--------|--------------|
@@ -39,7 +37,7 @@ The controller manages these interrupts based on **priority** and **mask status*
 
 ---
 
-##  How It Works
+## ▶️ How It Works
 1. Each device runs on a separate thread.
 2. Devices randomly raise interrupts.
 3. The controller:
@@ -50,7 +48,7 @@ The controller manages these interrupts based on **priority** and **mask status*
 
 ---
 
-##  Example Output
+## 🧪 Example Output
 Keyboard enabled Mouse enabled Printer masked Keyboard → ISR done Mouse → ISR done Keyboard → ISR done ...
 
 === ISR Log === 12:34:56 - Keyboard 12:34:57 - Mouse 12:34:59 - Keyboard
@@ -60,23 +58,23 @@ Simulation complete.
 
 ---
 
-##  How to Run
+## 💻 How to Run
 
-### **1️ Compile**
+### **1️⃣ Compile**
 Open your terminal in the project directory and run:
 ```bash
 javac InterruptControllerShort.java
-2️ Run
+2️⃣ Run
 Then execute the compiled class:
 
 java InterruptControllerShort
- Simulation Time
+⏱️ Simulation Time
 Runs for 8 seconds by default.
 
 You can change the runtime by modifying this line in main():
 
 Thread.sleep(8000);
- Notes
+📜 Notes
 Interrupts from masked devices are ignored and printed as masked.
 
 You can change the initial mask settings in:
@@ -86,7 +84,7 @@ ic.maskDevice(Device.MOUSE, true);
 ic.maskDevice(Device.PRINTER, false);
 Try experimenting by enabling/disabling devices or adding new ones!
 
-
-
+👨‍💻 Author
+Raksha Poojary Project: Interrupt Controller Simulation using Java Threads
 
 
