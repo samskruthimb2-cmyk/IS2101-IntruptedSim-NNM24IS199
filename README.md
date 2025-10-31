@@ -64,17 +64,17 @@ Simulation complete.
 Open your terminal in the project directory and run:
 ```bash
 javac InterruptControllerShort.java
-2️⃣ Run
+##2️⃣ Run
 Then execute the compiled class:
 
 java InterruptControllerShort
-⏱️ Simulation Time
+##⏱️ Simulation Time
 Runs for 8 seconds by default.
 
 You can change the runtime by modifying this line in main():
 
 Thread.sleep(8000);
-📜 Notes
+##📜 Notes
 Interrupts from masked devices are ignored and printed as masked.
 
 You can change the initial mask settings in:
@@ -84,7 +84,7 @@ ic.maskDevice(Device.MOUSE, true);
 ic.maskDevice(Device.PRINTER, false);
 Try experimenting by enabling/disabling devices or adding new ones!
 
-👨‍💻 Author
+##👨‍💻 Author
 Samskruthi MB Project: Interrupt Controller Simulation using Java Threads
 
 
