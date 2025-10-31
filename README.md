@@ -87,16 +87,6 @@ ic.maskDevice(Device.PRINTER, false);
 Try experimenting by enabling/disabling devices or adding new ones!
 
 
-# Output:
-
-![WhatsApp Image 2025-10-29 at 21 10 15_48aa8255](https://github.com/user-attachments/assets/70beeebc-17e9-4a27-87e7-9ab8bec34b12)
-
-
-# Conclusion
-This program demonstrates how interrupts from different I/O devices are handled using threads and mutex locks.
-It shows the concept of priority, masking, and synchronization in interrupt handling.
-Overall, it gives a clear idea of how an Interrupt Service Routine (ISR) works in real systems.
-
 
 
 
