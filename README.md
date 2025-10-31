@@ -85,6 +85,6 @@ ic.maskDevice(Device.PRINTER, false);
 Try experimenting by enabling/disabling devices or adding new ones!
 
 👨‍💻 Author
-Raksha Poojary Project: Interrupt Controller Simulation using Java Threads
+Samskruthi MB Project: Interrupt Controller Simulation using Java Threads
 
 
